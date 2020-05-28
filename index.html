@@ -1,29 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <meta name="description" content="Kenzie Form Practice">
-    <meta name="author" content="Kenzie and Colorlib Templates">
-    <meta name="keywords" content="Kenzie Form Practice">
+    <meta name="description" content="Kenzie Form Practice" />
+    <meta name="author" content="Kenzie and Colorlib Templates" />
+    <meta name="keywords" content="Kenzie Form Practice" />
 
     <!-- Title Page-->
     <title>Kenzie Form Practice</title>
 
     <!-- Font special for pages-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
 
     <!-- CSS-->
-    <link href="css/base.css" rel="stylesheet" media="all">
-    <link href="css/main.css" rel="stylesheet" media="all">
-</head>
+    <link href="css/base.css" rel="stylesheet" media="all" />
+    <link href="css/main.css" rel="stylesheet" media="all" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Your html here -->
-</body>
-
+    <div class="form-container">
+      <header>
+        <img src="images/bg-heading-03.jpg" alt="Pic" />
+      </header>
+      <main>
+          <h3>Registration Info</h3>
+          <!-- Start form -->
+          <div class="form">
+              <form action="https://formspree.io/xeqravry"
+              method="POST">
+              <!-- name -->
+                <div class="field name">
+                <label for="name">Name</label>
+                <input id="name" name="full-name" type="text" required/>
+                </div>
+                <!-- date -->
+                <div class="field date">
+                    <label for='date'>Date</label>
+                    <input id='date' type="date" required/>
+                </div>
+                <!-- experience -->
+                <div class="field experience">
+                    <label for='experience'>Experience</label>
+                    <select id='experience' name='experience' required>
+                        <option value="" selected>Experience</option>
+                        <option value='beginner'>Beginner</option>
+                        <option value='intermediate'>Intermediate</option>
+                        <option value='advanced'>Advanced</option>
+                    </select>
+                </div>
+                <!-- email -->
+                <div class="field email">
+                    <label for='email' name='email'/>Email</label>
+                    <input id='email' name='email' type='email' placeholder='joe@bro.com' required/> 
+                </div>
+                <!-- phone (optional) -->
+                <div class="field phone">
+                    <label for='phone'>Phone  (Optional)</label>
+                    <input type='number' step="10">
+                </div>
+                <!-- submit -->
+                <button type="field submit">Submit</button>
+            </form>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
