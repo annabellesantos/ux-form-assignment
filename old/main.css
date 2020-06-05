@@ -1,0 +1,106 @@
+/*  Put your CSS Here */
+body {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#fbc2eb),
+    to(#a18cd1)
+  );
+  background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+}
+/* form styling ------------------------------------- */
+.form-container {
+  /*   background: url("./images/bg-heading-03.jpg"); */
+  width: 100%;
+  margin: 20vh auto;
+  display: flex;
+  flex-wrap: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+/* header img {
+  width: 100%;
+} */
+main {
+  background-color: #000;
+  color: #fff;
+  padding: 30vh 20vh;
+}
+input {
+  background-color: gray;
+}
+.field {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 4px;
+  width: 50%;
+  margin: 20px 0;
+}
+button {
+  background-color: #1db954;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 50px;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+/* input styling ------------------------------------- */
+label {
+  display: none;
+}
+input {
+  background-color: #000;
+  border-bottom: 1px solid gray;
+  width: 200px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 0 0 4px 0;
+}
+
+/* placeholder styling  -------------------------------- */
+input::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+input:-ms-input-placeholder {
+  color: #ccc;
+}
+/* dropdown */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+}
+option {
+  background-color: #000;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+/* .experience {
+  position: relative;
+}
+.experience:after {
+  content: '>';
+  font: 17px "Consolas", monospace;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  position: absolute;
+  pointer-events: none;
+  color: #fff;
+  right: 
+} */
+
+/* desktop  ------------------------------------- */
+
+@media only screen and (min-width: 767px) {
+
+  /* Base */
+  /* layout */
+  /* blocks */
+}

@@ -29,9 +29,9 @@
   <body>
     <!-- Your html here -->
     <div class="form-container">
-      <header>
+<!--       <header>
         <img src="images/bg-heading-03.jpg" alt="Pic" />
-      </header>
+      </header> -->
       <main>
           <h3>Registration Info</h3>
           <!-- Start form -->
@@ -41,12 +41,12 @@
               <!-- name -->
                 <div class="field name">
                 <label for="name">Name</label>
-                <input id="name" name="full-name" type="text" required/>
+                <input id="name" name="full-name" type="text" placeholder='Name' required/>
                 </div>
                 <!-- date -->
                 <div class="field date">
                     <label for='date'>Date</label>
-                    <input id='date' type="date" required/>
+                    <input id='date' type="date" placeholder='mm/dd/yyyy' required/>
                 </div>
                 <!-- experience -->
                 <div class="field experience">
@@ -61,12 +61,12 @@
                 <!-- email -->
                 <div class="field email">
                     <label for='email' name='email'/>Email</label>
-                    <input id='email' name='email' type='email' placeholder='joe@bro.com' required/> 
+                    <input id='email' name='email' type='email' placeholder='Email' required/> 
                 </div>
                 <!-- phone (optional) -->
                 <div class="field phone">
                     <label for='phone'>Phone  (Optional)</label>
-                    <input type='number' step="10">
+                    <input type='tel' placeholder='Phone (Optional)'>
                 </div>
                 <!-- submit -->
                 <button type="field submit">Submit</button>
